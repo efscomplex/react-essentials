@@ -1,0 +1,13 @@
+{
+   "name": "@efsdev/react-essentials",
+   "private": true,
+   "version": "1.0.0",
+   "scripts": {
+      "dev:toolkit": "yarn workspace @efsdev/react-toolkit dev"
+   },
+   "workspaces": [
+      "react-toolkit",
+      "examples/*"
+   ],
+   "license": "MIT"
+}
